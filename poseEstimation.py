@@ -5,7 +5,7 @@ class poseEstimator:
 
     def __init__(self, imgSize=(480, 640)):
         self.size = imgSize
-        self.modelPointsFull = self.get_full_model_points()
+        self.modelPointsFull = self.getFullModelPoints()
 
         #camera internals
         self.focalLengths = self.size[1]

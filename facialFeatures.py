@@ -1,10 +1,10 @@
 import cv2 as cv
 import numpy as np
-import enum
+from enum import Enum
 
-class Eyes(enum):
-    LEFT = 1
-    RIGHT = 2
+class Eyes(Enum):
+    LEFT = 0
+    RIGHT = 1
 
 class FacialFeatures:
     eyeKeyIndicies = [
